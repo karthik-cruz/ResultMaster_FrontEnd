@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="radio"] {
+    accent-color: #764fe3;
+    /* Custom color for the radio button */
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* .custom-skeleton {
+    background-color: #e0e0e0;
+    background-image: linear-gradient(to right,
+            #e0e0e0 0%,
+            #f5f5f5 20%,
+            #e0e0e0 40%,
+            #e0e0e0 100%);
+    background-size: 200% 100%;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+} */
